@@ -25,6 +25,8 @@
 - 노트북 서버로 운영중이기 때문에 잠자는시간 or 휴식시간에는 서버가 종료됩니다.
 - 웹에서 볼수없는경우, 로컬환경에서 구동가능합니다.
 
+## 문의
+- 오픈카카오 : https://open.kakao.com/o/seBeGPuc
 
 ## 화면
 <img src="assets/static/images/11.png" width="90%"></img>
