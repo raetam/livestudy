@@ -27,4 +27,4 @@
 
 
 ## 화면
-<img src="/Users/tutrim/Desktop/livestudy/assets/static/images/phoenix.png" width="90%"></img>
+<img src="assets/static/images/phoenix.png" width="90%"></img>
