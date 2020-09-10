@@ -1,4 +1,4 @@
-defmodule LivestudyWeb.CanvasLive do
+defmodule LivestudyWeb.AlgorithmLive do
   use LivestudyWeb, :live_view
   alias LivestudyWeb.V
   def mount(_params, _session, socket) do

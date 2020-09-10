@@ -1,0 +1,14 @@
+<br>
+   <button >
+   <%= @title %>
+    </button>
+
+  <textarea type="text"  style="
+display: grid ;
+  color: white ; width: 500px;height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px; margin: 0px;
+ " >
+
+ <%= @content %>
+ </textarea>

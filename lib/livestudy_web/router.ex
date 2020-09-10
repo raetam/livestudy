@@ -19,6 +19,8 @@ defmodule LivestudyWeb.Router do
 
     live "/", PublicLive, :index
     live "/canvas", CanvasLive
+    live "/algorithm", AlgorithmLive
+    live "/test", TestLive
   end
 
   # Other scopes may use custom stacks.

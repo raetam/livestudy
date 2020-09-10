@@ -1,20 +1,7 @@
-<br>
-<button  style="color: white; background-color: black;text-align: center">  <a href="/"> HOME </a> </button>
-<button  style="color: white; background-color: black;text-align: center">  <a href="/canvas"> canvas </a> </button>
-<br>
-<br>
-   <button style="color: white; background-color: black;text-align: center">
-    스터디 페이지 안내
-    </button>
-
-  <textarea type="text"  style="
-display: grid ;
-  color: white ; width: 500px;height: 200px;
-  border: 1px solid #ccc;
-  border-radius: 4px; margin: 0px;
- " >
-
- elixir 언어를 활용하는 간단한
+<%= V.render("menu_all.html", assigns: "@assigns") %>
+<%= V.render("desc.html",
+title: "스터디 페이지 안내",
+content: " elixir 언어를 활용하는 간단한
  프로젝트를 진행하고자 만들었습니다.
 
  아이디어가 생각나는대로 프로토타이핑 해보고,
@@ -23,29 +10,4 @@ display: grid ;
  작성자 :: 초급 elixir
  문의 :: https://open.kakao.com/o/seBeGPuc
  github : https://github.com/raetam/livestudy
- 제작일 : 2020.09.09
-
- </textarea>
- <br>
-   <button style="color: white; background-color: black;text-align: center">
-    project :: canvas
-    </button>
-
-  <textarea type="text"  style="
-display: grid ;
-  color: white ; width: 500px;height: 200px;
-  border: 1px solid #ccc;
-  border-radius: 4px; margin: 0px;
- " >
-
-린 캔버스 , 비즈니스 캔버스 , 스타트업 캔버스 등으로 불리우는
-캔버스 모델을 웹으로 구현해 보고자 합니다.
-
-참고중인 롤 모델은 유튜브 영상을 참조해주시면 됩니다.
-https://www.youtube.com/watch?v=kZD5GFIZfls&feature=youtu.be
-
-참가방법은 live/canvas 폴더내서 자유롭게 구현하는것입니다.
-프로젝트 시작일 :: 2020.09.09
-
- </textarea>
-</td>
+ 제작일 : 2020.09.09") %>

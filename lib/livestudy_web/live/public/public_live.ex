@@ -1,6 +1,6 @@
 defmodule LivestudyWeb.PublicLive do
   use LivestudyWeb, :live_view
-  @impl true
+  alias LivestudyWeb.V
   def mount(_params, _session, socket) do
     {:ok, assign(socket, query: "", results: %{})}
   end

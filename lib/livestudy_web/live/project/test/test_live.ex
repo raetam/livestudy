@@ -1,6 +1,7 @@
-defmodule LivestudyWeb.CanvasLive do
+defmodule LivestudyWeb.TestLive do
   use LivestudyWeb, :live_view
   alias LivestudyWeb.V
+
   def mount(_params, _session, socket) do
     socket = assign(
       socket,
@@ -8,4 +9,7 @@ defmodule LivestudyWeb.CanvasLive do
       )
     {:ok, socket}
   end
+
+
+
 end
