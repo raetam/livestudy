@@ -1,0 +1,20 @@
+<br>
+   <button >
+   <%= @title %>
+    </button>
+  <textarea type="text"  style= "<%= @style %>" >
+
+ <%= @content %>
+ </textarea>
+<textarea type="text"  style= "<%= @style %>" >
+
+ <%= @content %>
+ </textarea>
+<textarea type="text"  style= "<%= @style %>" >
+
+ <%= @content %>
+ </textarea>
+<textarea type="text"  style= "<%= @style %>" >
+
+ <%= @content %>
+ </textarea>

@@ -1,7 +1,10 @@
 <%= V.render("menu_all.html", assigns: "@assigns") %>
+<%= V.render("desc.html",
+title: "테스트 페이지",
+content: "테스트페이지",
+style: V.style_desc(500,200)) %>
+</td>
 <br>
 <%= inspect @socket |> Map.keys %>
 <%= inspect @socket.__struct__ %>
 <br>
-<%= V.render("desc.html", title: "테스트 페이지", content: "테스트페이지") %>
-</td>
