@@ -1,20 +1,19 @@
+<% alias LivestudyWeb.V.Canvas %>
 <br>
-   <button >
-   <%= @title %>
-    </button>
-  <textarea type="text"  style= "<%= @style %>" >
-
- <%= @content %>
- </textarea>
+<button >
+  <%= @title %>
+</button>
 <textarea type="text"  style= "<%= @style %>" >
+  <%= @content %>
+</textarea>
 
- <%= @content %>
- </textarea>
-<textarea type="text"  style= "<%= @style %>" >
-
- <%= @content %>
- </textarea>
-<textarea type="text"  style= "<%= @style %>" >
-
- <%= @content %>
- </textarea>
+<table>
+<tr>
+<td colspan="2" style="width: 300px">
+<%= {:safe,Canvas.render_board(300,400)} %>
+</td>
+<td colspan="2" style="width: 300px">
+<%= {:safe,Canvas.render_board(500,500)} %>
+</td>
+</tr>
+</table>
