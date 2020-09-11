@@ -19,6 +19,7 @@ defmodule LivestudyWeb.Router do
 
     live "/", PublicLive, :index
     live "/canvas", CanvasLive
+    live "/chart", ChartLive
     live "/algorithm", AlgorithmLive
     live "/test", TestLive
   end

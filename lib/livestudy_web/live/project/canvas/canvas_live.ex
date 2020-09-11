@@ -8,4 +8,6 @@ defmodule LivestudyWeb.CanvasLive do
       )
     {:ok, socket}
   end
+
+
 end
