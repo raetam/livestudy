@@ -1,7 +1,9 @@
 <%= V.render("menu_all.html", assigns: "@assigns") %>
 <%
-  string =  "안녕하세요"
+  string =  "안녕안녕하이이이이이이이"
   number = 2
 %>
 <%= V.render("desc.html", title: "input", content:  "str = #{string} number = #{number}" ,style: V.style_desc(120,40)) %>
-<%= V.render("desc.html", title: "chunk", content: "#{inspect chunk(string,number)}",style: V.style_desc(400,40)) %>
+<%= V.render("desc.html", title: "compress", content: "#{inspect Compress.compress_all(string)}",style: V.style_desc(600,200)) %>
+<%= V.render("desc.html", title: "solution", content: "#{inspect Compress.solution(string)}",style: V.style_desc(600,200)) %>
+<%= V.render("desc.html", title: "reduce,[1,2,3,4]", content: "#{inspect Enum.reduce([1, 2, 3, 4],5 ,fn x, x0 -> [x,x0] end)}",style: V.style_desc(400,40)) %>

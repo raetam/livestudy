@@ -1,7 +1,7 @@
 defmodule LivestudyWeb.TestLive do
   use LivestudyWeb, :live_view
   alias LivestudyWeb.V
-
+  alias Compress
   def mount(_params, _session, socket) do
     socket = assign(
       socket,
@@ -15,10 +15,10 @@ defmodule LivestudyWeb.TestLive do
      |> Enum.map(fn str -> str |> String.length  end)
      |> Enum.min
   end
-  def chunk(s,n) do
-    s
-    |> String.codepoints
-    |> Enum.chunk_every(n)
-    |> Enum.map(&Enum.join/1)
-  end
+  # def chunk(s,n) do
+  #   s
+  #   |> String.codepoints
+  #   |> Enum.chunk_every(n)
+  #   |> Enum.map(&Enum.join/1)
+  # end
 end
